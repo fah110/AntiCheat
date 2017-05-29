@@ -72,7 +72,7 @@
             }
     	}
 
-        public function onDamage(EntityDamageEvent $event){
+        /*public function onDamage(EntityDamageEvent $event){
             if($event instanceof EntityDamageByEntityEvent and $event->getEntity() instanceof Player and $event->getDamager() instanceof Player){
                 if($event->isCancelled()){
                 } else {
@@ -81,7 +81,7 @@
                     }
                 }
             }
-        }
+        }*/
 
         public function onPlayerJoin(PlayerJoinEvent $event){
             $player = $event->getPlayer();
